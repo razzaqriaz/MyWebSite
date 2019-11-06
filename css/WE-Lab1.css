@@ -1,0 +1,139 @@
+body{
+background-repeat:no-repeat;
+	background-size:cover;
+        	
+}
+.header{
+    float:left;
+    height:130px;
+    width:100%;
+    margin-top:-12px;
+    margin-left:-38px;
+	width:106%;
+	background-color:lightblue;
+    text-align:center;
+}
+.navbar ul {
+ 
+	background: #999999;
+	width:106%;
+	margin-left:-38px;
+	margin-bottom:13px;
+	padding:0px;
+}
+.navbar li {
+  display:inline-block;
+  font-size:18px;
+}
+.navbar a{
+  text-decoration:none; 
+  background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+  color:white;
+  padding:5px;
+  display:inline-block;
+}
+.navbar a:link, a:visited {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+    text-align: center;
+    text-decoration: none;
+    
+}
+.body{
+	position:absolute;
+	
+	z-index:-1;
+	
+}
+
+.navbar a:hover, a:active {
+    background:#29526D;
+    color: white;
+}
+
+.user_login{
+	margin-left:830px;
+    margin-top:-505px;
+	height:330px;
+    width:35%;
+    border:1px solid dodgerblue;
+    border-radius:5px;
+    background: linear-gradient(to bottom, rgba(224,243,250,1) 49%,rgba(184,226,246,1) 100%,rgba(182,223,253,1) 100%); 
+}
+.user_login hr{
+    width:250px;
+    color:#2E4372;
+}
+
+.user_login td{
+    padding:3px;
+    padding-left:8px;
+    font-size:15px;
+    font-family:verdana;
+}
+.user_login .caption{
+    font-size:20px;
+    color:#2E4372;
+    font-weight:bold;
+}
+.user_login .button1{
+    padding-top:8px;
+}
+.user_login .button{
+    background: linear-gradient(to bottom, rgba(207,231,250,1) 0%,rgba(99,147,193,1) 98%,rgba(99,147,193,1) 100%);
+    font-size:18px;
+    color:#2E4372;
+    border:1;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+#container{
+	margin-top:210px;
+	margin-left:1px;
+	width:400px;
+	height:300px;
+	overflow:hidden;
+}
+
+#sliderbox{
+	position:relative;
+	width:2400px;
+	animation-name: slideranimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	}
+#sliderbox img{
+	float: left;
+}
+@keyframes slideranimation{
+	0%{
+		left:0px;
+	}
+	20% /* 4 seconds*/
+	{
+		left :0px;
+	}
+	25%{
+		left: -600px;
+	}
+	25%{
+		left: -600px;
+	}
+	45%
+	{
+		left: -600px;
+	}
+	50%{
+		left: -1200px;
+	}
+	70%{
+		left: -1200px;
+	}
+	75%{
+		left: -1800px;
+	}
+}
